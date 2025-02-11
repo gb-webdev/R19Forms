@@ -1,7 +1,9 @@
+import {RegistrationForm} from "./RegistrationForm"
+
 export default function Home() {
   return (
-    <div>
-      
+    <div className='mx-auto max-w-xl'>
+      <RegistrationForm />
     </div>
   )
 }
